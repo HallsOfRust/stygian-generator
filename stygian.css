@@ -1,0 +1,121 @@
+body {
+  font-family: 'PT Serif', serif;
+  background-color: #221133;
+}
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 40px;
+}
+h2 {
+  font-size: 20px;
+}
+h3 {
+  padding: 1%;
+  background-color: #221133;
+  color: white;
+}
+ol li {
+  counter-increment: item;
+  border-bottom: 1px solid #221133;
+}
+ol li:before {
+  content: counter(item) " ";
+  font-weight: bold;
+  padding-left: 10px;
+  margin-right: 20px;
+}
+ol {
+  padding-left: 0;
+  list-style: none;
+  counter-reset: item;
+}
+button {
+  background-color: #221133;
+  border: 3px solid white;
+  outline: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+}
+button:hover {
+  background-color: white;
+  color: #221133;
+}
+button:active {
+  position: relative;
+  top: 1px;
+}
+.buttons {
+  margin: 1%;
+  display: flex;
+  justify-content: center;
+}
+.minibutton {
+  border: 1px solid white;
+  outline: none;
+  color: white;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'PT Serif', serif;
+  font-size: 14px;
+}
+.mono {
+  font-family: 'IBM Plex Mono', monospace;
+  font-style: italic;
+  text-align: center;
+}
+.stats {
+  margin: 0;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+#content-container {
+  background-color: white;
+  color: #221133;
+}
+#content-inner {
+  display: flex;
+  width: 100%;
+}
+#depth-progress {
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+}
+#library {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+#room {
+  float: left;
+  width: 40%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#event-content {
+  float: right;
+  width: 40%;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: none;
+}
+#notification {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 20px;
+  width: 100px;
+  position: absolute;
+  top: 90%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+}

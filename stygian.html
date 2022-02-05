@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Stygian Library Generator</title>
+    <meta charset="UTF-8">
+    <!-- https://visjs.github.io/vis-network/docs/network/ -->
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <!-- https://github.com/davidbau/seedrandom -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"></script>
+    <!-- Fonts. -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=PT+Serif&family=IBM+Plex+Mono:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stygian.css">
+  </head>
+  <body>
+    <div id="library"></div>
+    <div>
+      <div class="buttons">
+        <button onclick="goDeeperClick()">GO DEEPER</button>
+        <button onclick="eventClick()">EVENT</button>
+      </div>
+      <div class="buttons">
+        <button onclick="addConnectionClick()">ADD CONNECTION</button>
+        <button onclick="deleteClick()">DELETE SELECTION</button>
+        <button onclick="toggleVisitorsClick()" id="toggle-visitors"></button>
+        <button onclick="toggleActiveClick()" id="toggle-active"></button>
+      </div>
+    </div>
+    <div id="content-container">
+      <div id="depth-progress">
+        <button id="regenerate-room" class="minibutton" onclick="regenerateRoomClick()" title="Regenerate room">&#8635</button>
+        <h2 id="depth" class="stats"></h2>
+        <h2 id="progress" class="stats"></h2>
+        <button class="minibutton" onclick="addProgressClick(-1)">-</button>
+        <button class="minibutton" onclick="addProgressClick(1)">+</button>
+      </div>
+      <div id="content-inner">
+        <div id="room">
+          <h1 id="location-title"></h1>
+          <div id="location-description"></div>
+          <h1 id="details-title"></h1>
+          <div id="details-description"></div>
+          <button id="revisit-btn" onclick="revisitClick()">REVISIT LOCATION</button>
+        </div>
+        <div id="event-content"></div>
+      </div>
+    </div>
+    <div>
+      <div class="buttons">
+        <button onclick="saveClick()">SAVE</button>
+        <button onclick="document.getElementById('load-file').click();">LOAD</button>
+        <input id="load-file" type="file" name="" style="display: none;" />
+      </div>
+    </div>
+    <script type="text/javascript" src="dice.js"></script>
+    <script type="text/javascript" src="locations.js"></script>
+    <script type="text/javascript" src="details.js"></script>
+    <script type="text/javascript" src="event_types.js"></script>
+    <script type="text/javascript" src="treasure.js"></script>
+    <script type="text/javascript" src="books.js"></script>
+    <script type="text/javascript" src="monsters.js"></script>
+    <script type="text/javascript" src="visitor_encounters.js"></script>
+    <script type="text/javascript" src="intruder_encounters.js"></script>
+    <script type="text/javascript" src="contentgen.js"></script>
+    <script type="text/javascript" src="library.js"></script>
+    <script type="text/javascript" src="stygian.js"></script>
+  </body>
+</html>
