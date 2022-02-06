@@ -537,17 +537,17 @@ var stygian_locations = function() {
 <p>Although the entrances the bees use are only a few inches across, you can get into the beehive pretty easily, simply by cutting through its paper walls. Within, chambers the size of a human head contain eggs, larvae, dormant bees, and the Black Honey that the bees make. If the entire hive is ransacked, there are 6 pints of Black Honey inside.</p>
 <p>Black Honey is made without flowers. Instead, the bees harvest ink from open books and blood from corpses. Over time, the bees condense and refine the Honey, producing a substance dense with magical potential.</p>
 <p><em>Roll for anybody who consumes a mouthful.</em></p>
-<h3>D8 WHAT CHANGES IT WORKS UPON THEM</h3>
-<ol>
-  <li>The consumer can speak to and understand any insects, mundane or otherwise.</li>
-  <li>The consumer can see into the ultraviolet spectrum, allowing them to see through most camouflage and to perceive electrical charges by the ultraviolet glow they produce.</li>
-  <li>The consumer\'s skeleton becomes brittle. -2 maximum HP permanently, to a minimum of 1.</li>
-  <li>Subtle yellow-and-black bands appear on the consumer\'s skin.</li>
-  <li>The consumer sprouts a stinger over the course of the next few days. It can be used once as a weapon, doing 2d12 damage to both the victim and the consumer (as the sting is wrenched free, bringing their viscera with it).</li>
-  <li>The consumer\'s body becomes light and filled with hollow spaces. Halve all falling damage.</li>
-  <li>The consumer sprouts two pairs of transparent wings from their shoulder blades, allowing them to hover a few feet above the floor.</li>
-  <li>The consumer\'s skin hardens into a brittle exoskeleton. +1 AC.</li>
-</ol>
+<table>
+  <tr><th>D8</th><th>WHAT CHANGES IT WORKS UPON THEM</th></tr>
+  <tr><td>1</td><td>The consumer can speak to and understand any insects, mundane or otherwise.</td></tr>
+  <tr><td>2</td><td>The consumer can see into the ultraviolet spectrum, allowing them to see through most camouflage and to perceive electrical charges by the ultraviolet glow they produce.</td></tr>
+  <tr><td>3</td><td>The consumer\'s skeleton becomes brittle. -2 maximum HP permanently, to a minimum of 1.</td></tr>
+  <tr><td>4</td><td>Subtle yellow-and-black bands appear on the consumer\'s skin.</td></tr>
+  <tr><td>5</td><td>The consumer sprouts a stinger over the course of the next few days. It can be used once as a weapon, doing 2d12 damage to both the victim and the consumer (as the sting is wrenched free, bringing their viscera with it).</td></tr>
+  <tr><td>6</td><td>The consumer\'s body becomes light and filled with hollow spaces. Halve all falling damage.</td></tr>
+  <tr><td>7</td><td>The consumer sprouts two pairs of transparent wings from their shoulder blades, allowing them to hover a few feet above the floor.</td></tr>
+  <tr><td>8</td><td>The consumer\'s skin hardens into a brittle exoskeleton. +1 AC.</td></tr>
+</table>
 <p>There are 20 mouthfuls of honey in the hive.</p>
 <p>There are ${
             bees_present} bees on guard in the room. So long as the PCs don\'t harm the guard bees or their hive, the bees will ignore them. If a fight starts, d8 bees emerge from the hive each round. The first time an 8 is rolled, then 8 bees emerge and their Queen comes with them. There are 120 bees and their Queen in total.</p>

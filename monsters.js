@@ -26,21 +26,21 @@ now roams the Library as an independent entity. A data-cloud of disembodied text
 <p>The Bandersnatch lurks. It has an uncanny ability to avoid drawing attention to itself until its hands have closed around whatever it wishes to steal. This might be an object, a piece of equipment, or a person.</p>
 <p>As a fairy creature, the Bandersnatch is as mad as a box of frogs. It’s a sort of kleptomaniac, collecting things with no seeming pattern or purpose. If prevented from taking the object it desires, it becomes enraged.</p>
 <p>Roll every so often on the following table.</p>
-<h3>D12 What the Bandersnatch wishes to steal</h3>
-<ol>
-  <li>Food.</li>
-  <li>Shiny things.</li>
-  <li>Beautiful people.</li>
-  <li>Eyes.</li>
-  <li>Stolen things.</li>
-  <li>String and rope.</li>
-  <li>Tools.</li>
-  <li>Weapons.</li>
-  <li>Clothing.</li>
-  <li>Skin.</li>
-  <li>Tongues.</li>
-  <li>Maps.</li>
-</ol>
+<table>
+  <tr><th>D12</th><th>What the Bandersnatch wishes to steal</th></tr>
+  <tr><td>1</td><td>Food.</td></tr>
+  <tr><td>2</td><td>Shiny things.</td></tr>
+  <tr><td>3</td><td>Beautiful people.</td></tr>
+  <tr><td>4</td><td>Eyes.</td></tr>
+  <tr><td>5</td><td>Stolen things.</td></tr>
+  <tr><td>6</td><td>String and rope.</td></tr>
+  <tr><td>7</td><td>Tools.</td></tr>
+  <tr><td>8</td><td>Weapons.</td></tr>
+  <tr><td>9</td><td>Clothing.</td></tr>
+  <tr><td>10</td><td>Skin.</td></tr>
+  <tr><td>11</td><td>Tongues.</td></tr>
+  <tr><td>12</td><td>Maps.</td></tr>
+</table>
 `,
     blackOozes: `
 <h3>Black Oozes</h3>
@@ -90,21 +90,21 @@ now roams the Library as an independent entity. A data-cloud of disembodied text
 <h3>Escaped Fictions</h3>
 <p>Once, these beings were mere characters in a story book, but now they’ve clawed their way out into the fractally-dense information cloud of the Library. They’re not truly real, but it’s hard to tell—they’re very convincing.</p>
 <p>They subconsciously crave reality. To warp the real world around their narrative so that they are part of the everyday order of things. Reality obliges. Where they pass, things alter to fit the fiction they have emerged from. You’re playing by their rules, now.</p>
-<h3>D12 Roll to determine who you meet</h3>
-<ol>
-  <li>Don quixote, who tilted at windmills.</li>
-  <li>Frankenstein’s monster, who was built from corpses.</li>
-  <li>Grendel, a monstrous inhabitant of the wilderness, who hates noise and celebration, one arm torn clean off.</li>
-  <li>Doctor Faustus, an occultist who regrets selling his soul.</li>
-  <li>Count Dracula, the monstrous vampire.</li>
-  <li>Lady Macbeth, ambitious and murderous, and of much-degraded sanity.</li>
-  <li>The ghost of christmas future, who delivers dire warnings to the mean-spirited.</li>
-  <li>Bluebeard, a dashingly handsome murderer of his many wives.</li>
-  <li>Sir Lancelot, brilliant knight and enthusiastic adulterer.</li>
-  <li>Robin Hood, a charitable bandit and excellent shot.</li>
-  <li>Puck, the mischievous fairy sprite.</li>
-  <li>Jack the giant-slayer, young and reckless, but cunning.</li>
-</ol>
+<table>
+  <tr><th>D12</th><th>Roll to determine who you meet</th></tr>
+  <tr><td>1</td><td>Don quixote, who tilted at windmills.</td></tr>
+  <tr><td>2</td><td>Frankenstein’s monster, who was built from corpses.</td></tr>
+  <tr><td>3</td><td>Grendel, a monstrous inhabitant of the wilderness, who hates noise and celebration, one arm torn clean off.</td></tr>
+  <tr><td>4</td><td>Doctor Faustus, an occultist who regrets selling his soul.</td></tr>
+  <tr><td>5</td><td>Count Dracula, the monstrous vampire.</td></tr>
+  <tr><td>6</td><td>Lady Macbeth, ambitious and murderous, and of much-degraded sanity.</td></tr>
+  <tr><td>7</td><td>The ghost of christmas future, who delivers dire warnings to the mean-spirited.</td></tr>
+  <tr><td>8</td><td>Bluebeard, a dashingly handsome murderer of his many wives.</td></tr>
+  <tr><td>9</td><td>Sir Lancelot, brilliant knight and enthusiastic adulterer.</td></tr>
+  <tr><td>10</td><td>Robin Hood, a charitable bandit and excellent shot.</td></tr>
+  <tr><td>11</td><td>Puck, the mischievous fairy sprite.</td></tr>
+  <tr><td>12</td><td>Jack the giant-slayer, young and reckless, but cunning.</td></tr>
+</table>
 <p>Reality shifts to accommodate the character, and behaves like the setting they’re from, not this reality. Actions intended to fit the character’s setting and narrative (such as deceiving Don Quixote into behaving chivalrously) automatically succeed. In practice, this means that you should alter the tone and feel of your game while an escaped fiction is around. Some examples include:</p>
 <ul>
   <li>Blood doesn’t get spilled around characters written for children. Tone down any descriptions of gore and violence.</li>
@@ -151,36 +151,36 @@ now roams the Library as an independent entity. A data-cloud of disembodied text
 <p>A visitor from Hell. The Library contains souls, trapped and catalogued. Considering that souls are the main currency of Hell, this results in a certain degree of financial interest from the Devils.</p>
 <p>The Infernal Merchant is here to trade souls. It might buy them or trade them for some service, or else be willing to sell souls from his stock if offered a good price. It will seem helpful—it isn’t. Its goals are to enrich himself, to entice mortals into damning themselves, and to cause mortals to suffer. Everything it offers is a trap, its contracts carefully worded to screw the mortal signee. Small print is written on an atomic scale.</p> <p>Its prices are—when you think about them—very reasonable. The Merchant can grant each mortal a single wish. It requires payment to do so. Perhaps their soul upon death. Perhaps the murder and delivery of somebody else’s soul. Perhaps some other, seemingly innocuous task. Unless you’re incredibly precise with your wording, the wish will be perverted and made evil. You’ll get precisely what you asked for, but you’ll wish you hadn’t. It is evil. It is smarter than the PCs.</p>
 <p>Roll for its Appearance and Special Ability.</p>
-<h3>D12 Appearance</h3>
-<ol>
-  <li>angelic.</li>
-  <li>goat-human hybrid.</li>
-  <li>bat-human hybrid.</li>
-  <li>huge serpent.</li>
-  <li>corpse-like.</li>
-  <li>perfectly human-looking, other than tiny horns.</li>
-  <li>perfectly human-looking, with evil goatee and moustache.</li>
-  <li>serpent-human hybrid.</li>
-  <li>empty robe that oozes smoke.</li>
-  <li>mass of chains and locks in a humanoid form.</li>
-  <li>innocent-looking human child with a forked tongue.</li>
-  <li>savage-looking humanoid with six arms.</li>
-</ol>
-<h3>D12 Special Ability</h3>
-<ol>
-  <li>can turn any object or being to solid gold by touching it.</li>
-  <li>can transform into a cloud of flies.</li>
-  <li>can transform into a harmless-looking animal.</li>
-  <li>can mimic the appearance of the viewer’s loved ones.</li>
-  <li>touch drains memory (d12 damage to intelligence).</li>
-  <li>can teleport short distances in a puff of smoke.</li>
-  <li>can sculpt flesh like soft wax (2d6 damage if used to mutilate).</li>
-  <li>can locate the soul of a specified individual unerringly.</li>
-  <li>immune to fire.</li>
-  <li>casts charm person when it shakes your hand.</li>
-  <li>casts suggestion whenever the victim answers a direct question from the devil.</li>
-  <li>can resurrect the dead. No need for an intact body. The dead come back… altered.</li>
-</ol>
+<table>
+  <tr><th>D12</th><th>Appearance</th></tr>
+  <tr><td>1</td><td>angelic.</td></tr>
+  <tr><td>2</td><td>goat-human hybrid.</td></tr>
+  <tr><td>3</td><td>bat-human hybrid.</td></tr>
+  <tr><td>4</td><td>huge serpent.</td></tr>
+  <tr><td>5</td><td>corpse-like.</td></tr>
+  <tr><td>6</td><td>perfectly human-looking, other than tiny horns.</td></tr>
+  <tr><td>7</td><td>perfectly human-looking, with evil goatee and moustache.</td></tr>
+  <tr><td>8</td><td>serpent-human hybrid.</td></tr>
+  <tr><td>9</td><td>empty robe that oozes smoke.</td></tr>
+  <tr><td>11</td><td>mass of chains and locks in a humanoid form.</td></tr>
+  <tr><td>12</td><td>innocent-looking human child with a forked tongue.</td></tr>
+  <tr><td>13</td><td>savage-looking humanoid with six arms.</td></tr>
+</table>
+<table>
+  <tr><th>D12</th><th>Special Ability</th></tr>
+  <tr><td>1</td><td>can turn any object or being to solid gold by touching it.</td></tr>
+  <tr><td>2</td><td>can transform into a cloud of flies.</td></tr>
+  <tr><td>3</td><td>can transform into a harmless-looking animal.</td></tr>
+  <tr><td>4</td><td>can mimic the appearance of the viewer’s loved ones.</td></tr>
+  <tr><td>5</td><td>touch drains memory (d12 damage to intelligence).</td></tr>
+  <tr><td>6</td><td>can teleport short distances in a puff of smoke.</td></tr>
+  <tr><td>7</td><td>can sculpt flesh like soft wax (2d6 damage if used to mutilate).</td></tr>
+  <tr><td>8</td><td>can locate the soul of a specified individual unerringly.</td></tr>
+  <tr><td>9</td><td>immune to fire.</td></tr>
+  <tr><td>10</td><td>casts charm person when it shakes your hand.</td></tr>
+  <tr><td>11</td><td>casts suggestion whenever the victim answers a direct question from the devil.</td></tr>
+  <tr><td>12</td><td>can resurrect the dead. No need for an intact body. The dead come back… altered.</td></tr>
+</table>
 `,
     inkElementals: `
 <h3>Ink Elementals</h3>
@@ -217,36 +217,36 @@ now roams the Library as an independent entity. A data-cloud of disembodied text
 <p>The soul of one who died within the Library, not yet drawn into the Library’s machinery and distilled into a Phantom (124).</p>
 <p>A Lost Soul knows what happens to the souls of the dead here.  They seek to avoid being captured by the Grey Librarians and to preserve their own independence and sanity. Talking with one can reveal a great deal about the inner workings of the Library and the nature of the Engines and Calculations within.</p>
 <p>Roll to determine who the lost soul once was, and twice to determine the powers it has.</p>
-<h3>D12 Who the Lost Soul once was</h3>
-<ol>
-  <li>Mortal librarian.</li>
-  <li>Lost child.</li>
-  <li>Nun.</li>
-  <li>Mad noblewoman.</li>
-  <li>Professor of mathematics.</li>
-  <li>Master burglar.</li>
-  <li>Famed assessin.</li>
-  <li>Plague-stricken doctor.</li>
-  <li>Emotionally tormented artist.</li>
-  <li>Census-taker.</li>
-  <li>Historian.</li>
-  <li>Genteel necromancer.</li>
-</ol>
-<h3>D12 Powers the Lost Soul has</h3>
-<ol>
-  <li>move objects about like a poltergeist. +3 to hit for d6 damage if it throws them at people.</li>
-  <li>create illusions out of mist.</li>
-  <li>cause wet, inky writing to appear on things.</li>
-  <li>alter the memories of those present in minor ways: save vs magic to resist; a success also alerts the victim.</li>
-  <li>cause something to catch fire for a few moments— save vs breath to avoid fire, or else it does d6 damage.</li>
-  <li>cause ice to appear on things, potentially freezing them in place.</li>
-  <li>extinguish lights and erase text.</li>
-  <li>lock doors securely.</li>
-  <li>speak in a loud voice.</li>
-  <li>make vermin appear: masses of flies, cockroaches, or woodlice that attack for d6 damage.</li>
-  <li>create gusts of wind.</li>
-  <li>make objects collapse or fall apart. +3 to hit for d6 damage if used to attack.</li>
-</ol>
+<table>
+  <tr><th>D12</th><th>Who the Lost Soul once was</th></tr>
+  <tr><td>1</td><td>Mortal librarian.</td></tr>
+  <tr><td>2</td><td>Lost child.</td></tr>
+  <tr><td>3</td><td>Nun.</td></tr>
+  <tr><td>4</td><td>Mad noblewoman.</td></tr>
+  <tr><td>5</td><td>Professor of mathematics.</td></tr>
+  <tr><td>6</td><td>Master burglar.</td></tr>
+  <tr><td>7</td><td>Famed assessin.</td></tr>
+  <tr><td>8</td><td>Plague-stricken doctor.</td></tr>
+  <tr><td>9</td><td>Emotionally tormented artist.</td></tr>
+  <tr><td>10</td><td>Census-taker.</td></tr>
+  <tr><td>11</td><td>Historian.</td></tr>
+  <tr><td>12</td><td>Genteel necromancer.</td></tr>
+</table>
+<table>
+  <tr><th>D12</th><th>Powers the Lost Soul has</th></tr>
+  <tr><td>1</td><td>move objects about like a poltergeist. +3 to hit for d6 damage if it throws them at people.</td></tr>
+  <tr><td>2</td><td>create illusions out of mist.</td></tr>
+  <tr><td>3</td><td>cause wet, inky writing to appear on things.</td></tr>
+  <tr><td>4</td><td>alter the memories of those present in minor ways: save vs magic to resist; a success also alerts the victim.</td></tr>
+  <tr><td>5</td><td>cause something to catch fire for a few moments— save vs breath to avoid fire, or else it does d6 damage.</td></tr>
+  <tr><td>6</td><td>cause ice to appear on things, potentially freezing them in place.</td></tr>
+  <tr><td>7</td><td>extinguish lights and erase text.</td></tr>
+  <tr><td>8</td><td>lock doors securely.</td></tr>
+  <tr><td>9</td><td>speak in a loud voice.</td></tr>
+  <tr><td>10</td><td>make vermin appear: masses of flies, cockroaches, or woodlice that attack for d6 damage.</td></tr>
+  <tr><td>11</td><td>create gusts of wind.</td></tr>
+  <tr><td>12</td><td>make objects collapse or fall apart. +3 to hit for d6 damage if used to attack.</td></tr>
+</table>
 `,
     neurovores: `
 <h3>Neurovores</h3>
@@ -288,17 +288,17 @@ now roams the Library as an independent entity. A data-cloud of disembodied text
 <p>Academics who have, for whatever reason, travelled to the Library in search of lost or forbidden knowledge. Cautious, erudite and experienced, they are aware of some of the hazards they face in search of information.</p>
 <p>Roll D100 twice on the Types of Books Table (147) for what they’re researching.</p>
 <p>Roll on the following table</p>
-<h3>D8 Where they came from</h3>
-<ol>
-  <li>University.</li>
-  <li>Noble's private research.</li>
-  <li>Government bureaucracy.</li>
-  <li>Monastery.</li>
-  <li>Intelligence agency.</li>
-  <li>Heroic adventurers.</li>
-  <li>Esoteric order.</li>
-  <li>Nunnery.</li>
-</ol>
+<table>
+  <tr><th>D8</th><th>Where they came from</th></tr>
+  <tr><td>1</td><td>University.</td></tr>
+  <tr><td>2</td><td>Noble's private research.</td></tr>
+  <tr><td>3</td><td>Government bureaucracy.</td></tr>
+  <tr><td>4</td><td>Monastery.</td></tr>
+  <tr><td>5</td><td>Intelligence agency.</td></tr>
+  <tr><td>6</td><td>Heroic adventurers.</td></tr>
+  <tr><td>7</td><td>Esoteric order.</td></tr>
+  <tr><td>8</td><td>Nunnery.</td></tr>
+</table>
 <p>If the topic of their research is related to the information sought by the PCs, conversing with the researchers about their findings so far adds D4 to the PC’s Progress (16).</p>
 `,
     rustMoths: `
@@ -326,17 +326,17 @@ now roams the Library as an independent entity. A data-cloud of disembodied text
     visitors: `
 <h3>Visitors</h3>
 <p>These are harmless mortals who have wandered into the Library and are now exploring. They are wholly unprepared for the strange and terrible things they will encounter within.</p>
-<h3>D8 Roll for who the visitors are</h3>
-<ol>
-  <li>University students.</li>
-  <li>Schoolchildren and one teacher.</li>
-  <li>A family on an outing.</li>
-  <li>Lost government archivists.</li>
-  <li>Aspiring adventurers.</li>
-  <li>Researchers into esotheric spaces.</li>
-  <li>An occultist and acolytes.</li>
-  <li>Very lost tourists.</li>
-</ol>
+<table>
+  <tr><th>D8</th><th>Roll for who the visitors are</th></tr>
+  <tr><td>1</td><td>University students.</td></tr>
+  <tr><td>2</td><td>Schoolchildren and one teacher.</td></tr>
+  <tr><td>3</td><td>A family on an outing.</td></tr>
+  <tr><td>4</td><td>Lost government archivists.</td></tr>
+  <tr><td>5</td><td>Aspiring adventurers.</td></tr>
+  <tr><td>6</td><td>Researchers into esotheric spaces.</td></tr>
+  <tr><td>7</td><td>An occultist and acolytes.</td></tr>
+  <tr><td>8</td><td>Very lost tourists.</td></tr>
+</table>
 `,
   };
 }();
