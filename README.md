@@ -14,5 +14,5 @@ Features:
 * Manually remove (connections between) rooms.
 * Manually add connections between rooms.
 
-[Try it out!](stygian.hallsofrust.com)
+[Try it out!](https://stygian.hallsofrust.com)
 
