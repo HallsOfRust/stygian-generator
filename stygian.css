@@ -14,20 +14,17 @@ h3 {
   background-color: #221133;
   color: white;
 }
-ol li {
-  counter-increment: item;
-  border-bottom: 1px solid #221133;
+
+table tr th {
+  background-color: #221133;
+  color: white;
 }
-ol li:before {
-  content: counter(item) " ";
+
+table tr td:first-child {
   font-weight: bold;
+  text-align: center;
+  padding-right: 10px;
   padding-left: 10px;
-  margin-right: 20px;
-}
-ol {
-  padding-left: 0;
-  list-style: none;
-  counter-reset: item;
 }
 button {
   background-color: #221133;
