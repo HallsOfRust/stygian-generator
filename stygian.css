@@ -1,4 +1,4 @@
-body {
+html body {
   font-family: 'PT Serif', serif;
   background-color: #221133;
 }
@@ -14,12 +14,10 @@ h3 {
   background-color: #221133;
   color: white;
 }
-
 table tr th {
   background-color: #221133;
   color: white;
 }
-
 table tr td:first-child {
   font-weight: bold;
   text-align: center;
@@ -47,6 +45,24 @@ button:hover {
 button:active {
   position: relative;
   top: 1px;
+}
+hr {
+  overflow: visible;
+  height: 30px;
+  border-style: solid;
+  border-color: #221133;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+hr:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #221133;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
 }
 .buttons {
   margin: 1%;
@@ -115,4 +131,21 @@ button:active {
   top: 90%;
   left: 90%;
   transform: translate(-50%, -50%);
+}
+#index-title {
+  text-align: center;
+  padding-top: 0;
+  margin-top: 0;
+}
+#stygian-link {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+#index-content {
+  background: white;
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  padding: 1%;
 }
